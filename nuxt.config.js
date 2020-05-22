@@ -10,6 +10,9 @@ export default {
    ** Headers of the page
    */
   head: {
+    htmlAttrs: {
+      prefix: 'og:http://ogp.me/ns#'
+    },
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
