@@ -42,7 +42,17 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.BASE_URL + ogImage
+          content: '/ogimage.png'
+        },
+        {
+          hid: 'vk:image',
+          property: 'vk:image',
+          content: '/vkimage.png'
+        },
+        {
+          hid: 'tw:image',
+          property: 'tw:image',
+          content: '/twimage.png'
         }
       ]
     }
