@@ -42,17 +42,27 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://ellanskii.github.io/Rabota.ru-sandbox/ogimage.png'
+          content: 'https://ellanskii.github.io/Rabota.ru-sandbox/ogimage2.png'
         },
         {
           hid: 'vk:image',
           property: 'vk:image',
-          content: 'https://ellanskii.github.io/Rabota.ru-sandbox/vkimage.png'
+          content: 'https://ellanskii.github.io/Rabota.ru-sandbox/vkimage2.png'
         },
         {
           hid: 'tw:image',
           property: 'tw:image',
-          content: 'https://ellanskii.github.io/Rabota.ru-sandbox/twimage.png'
+          content: 'https://ellanskii.github.io/Rabota.ru-sandbox/twimage2.png'
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '1200'
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '624'
         }
       ]
     }
