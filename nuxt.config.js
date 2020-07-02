@@ -1,8 +1,11 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/Rabota.ru-sandbox/'
-  }
-} : {}
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/Rabota.ru-sandbox/'
+        }
+      }
+    : {}
 
 export default {
   mode: 'universal',
